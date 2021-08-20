@@ -1,0 +1,61 @@
+Modificadores de classes, variáveis ou métodos
+final: impossibilita que uma classe seja estendida, que um método seja sobrescrito ou que uma variável seja reinicializada
+var: especifica que o tipo da variavel é do tipo do conteúdo associado a instância. Só pode ser utilizada quando a variavel é declarada e inicializada ao mesmo tempo.
+abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+interface: especifica uma interface
+implements: indica as interfaces que uma classe irá implementar
+static: faz um método ou variável pertencer à classe ao invés de às instâncias
+native: indica que um método está escrito em uma linguagem dependente de plataforma, como o C
+strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões https://en.wikipedia.org/wiki/IEEE_754
+synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+transient: impede a serialização de campos
+volatile: indica que uma variável pode ser alterada durante o uso de threads
+
+Controle de fluxo dentro de um bloco de código
+break: sai do bloco de codigo em que ele está
+case: executa um bloco de código dependendo do teste do switch
+continue:pula a execução do código que viria após essa linha e vai para a próxima passagem do loop
+default: executa esse bloco de codigo caso nenhum dos teste de switch-case seja verdadeiro
+do: executa um bloco de código uma vez, e então realiza um teste em conjunto com o while para determinar se o bloco deverá ser executado novamente
+else: executa um bloco de código alternativo caso o teste if seja falso
+for: usado para realizar um loop condicional de um bloco de código
+if: usado para realizar um teste lógico de verdadeiro o falso
+instanceof: determina se um objeto é uma instância de determinada classe, superclasse ou interface
+switch: indica a variável a ser comparada nas expressões case
+while: executa um bloco de código repetidamente enquanto a condição for verdadeira
+
+Tratamento de erros
+assert: testa uma expressão condicional para verificar uma suposição do programador
+catch: declara o bloco de código usado para tratar uma exceção
+finally: bloco de código, após um try-catch, que é executado independentemente do fluxo de programa seguido ao lidar com uma exceção
+throw: usado para passar uma exceção para o método que o chamou
+throws: indica que um método pode passar uma exceção para o método que o chamou
+try: bloco de código que tentará ser executado, mas que pode causar uma exceção
+
+Palavras reservadas não utilizadas
+const: Não utilize para declarar constantes; use public static final
+goto: não implementada na linguagem Java por ser considerada prejudicial
+
+Orientação a Objeto
+
+Polimorfismo
+Outro ponto essencial na programação orientada a objetos é o chamado polimorfismo.
+Na natureza, vemos animais que são capazes de alterar sua forma conforme a necessidade, e é dessa ideia que vem o
+polimorfismo na orientação a objetos. Como sabemos, os objetos filhos herdam as características e ações de seus “ancestrais”.
+Entretanto, em alguns casos, é necessário que as ações para um mesmo método seja diferente.
+Em outras palavras, o polimorfismo consiste na capacidade de uma classe se passar por outra por ser uma subclasse da mesma.
+
+Encapsulamento
+O encapsulamento é uma das principais técnicas que define a programação orientada a objetos.
+Se trata de um dos elementos que adicionam segurança à aplicação em uma programação orientada a objetos
+pelo fato de esconder as propriedades, criando uma espécie de caixa preta.
+
+A maior parte das linguagens orientadas a objetos implementam o encapsulamento baseado em propriedades privadas,
+ligadas a métodos especiais chamados getters e setters, que irão retornar e setar o valor da propriedade, respectivamente.
+Essa atitude evita o acesso direto a propriedade do objeto, adicionando uma outra camada de segurança à aplicação.
+
+Para fazermos um paralelo com o que vemos no mundo real, temos o encapsulamento em outros elementos.
+Por exemplo, quando clicamos no botão ligar da televisão, não sabemos o que está acontecendo internamente.
+Podemos então dizer que os métodos que ligam a televisão estão encapsulados.
+
+

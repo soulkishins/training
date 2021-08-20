@@ -1,0 +1,60 @@
+Palavras Reservadas da Aula 1
+
+Controle de pacotes
+import:importa pacotes ou classes para dentro do código
+package: especifica a que pacote todas as classes de um arquivo pertencem
+
+Modificadores de acesso
+private: acesso apenas dentro da classe
+protected: acesso por classes no mesmo pacote e subclasses
+public: acesso de qualquer classe
+
+Variáveis de referência
+super: refere-se a superclasse imediata
+this: refere-se a instância atual do objeto
+
+Retorno de um método
+void: indica que o método não tem retorno
+
+Primitivos
+boolean:um valor indicando verdadeiro ou falso
+byte: um inteiro de 8 bits (signed)
+char: um caracter unicode (16-bit unsigned)
+double: um número de ponto flutuante de 64 bits (signed)
+float: um número de ponto flutuante de 32 bits (signed)
+int: um inteiro de 32 bits (signed)
+long: um inteiro de 64 bits (signed)
+short: um inteiro de 32 bits (signed)
+
+Literais reservados
+De acordo com a Java Language Specification, null, true e false são tecnicamente chamados de valores literais, e não keywords.
+Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação.
+
+Classes, Variáveis ou Métodos
+class: especifica uma classe
+extends: indica a superclasse que a subclasse está estendendo
+new: instancia um novo objeto, chamando seu construtor
+return: retorna de um método sem executar qualquer código que venha depois desta linha (também pode retornar uma variável)
+
+Orientação a Objeto
+
+- Classe e Objeto
+Uma classe é uma forma de definir um tipo de dado em uma linguagem orientada a objeto.
+Ela é formada por dados e comportamentos.
+
+Para definir os dados são utilizados os atributos, e para definir o comportamento são utilizados métodos.
+Depois que uma classe é definida podem ser criados diferentes objetos que utilizam a classe.
+
+- Herança
+A herança é um tipo de relacionamento que define que uma classe é uma subclasse de outra, ou seja, uma classe filha.
+Sendo assim, como filha de outra classe esta herda os atributos e métodos como modificador de acesso public e protected
+da classe pai, se estiver no mesmo pacote, terá acesso também aos atributos e métodos como modificador default.
+
+- Sobrecarga
+Sobrecarga (overloading) é um mecanismo que permite que dois métodos de uma mesma classe possam ter o mesmo nome, desde que
+suas listas de parâmetros sejam diferentes, constituindo assim uma assinatura diferente.
+
+- Sobrescrita
+A sobrescrita (ou override) está diretamente relacionada à orientação a objetos, mais especificamente com a herança.
+Com a sobrescrita, conseguimos especializar os métodos herdados das superclasses, alterando o seu comportamento nas
+subclasses por um mais específico.
